@@ -11,6 +11,13 @@
     "web-public": "yarn workspace @alura/web-public",
     "dev:web-public": "yarn web-public dev",
     "build:web-public": "yarn web-public build",
-    "start:web-public": "yarn web-public start"
+    "start:web-public": "yarn web-public start",
+    "design-system": "yarn workspace @alura/design-system"
+  },
+  "dependencies": {
+    "eslint-config-next": "^13.4.2",
+    "next": "^13.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
