@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "styled-components": "6.0.0-rc.1",
     "@alura/design-system": "*",
     "@alura/utils": "*",
     "eslint-config-next": "^13.4.2",
@@ -22,9 +23,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.1.7",
-    "@types/react": "^18.2.6",
-    "next-compose-plugins": "^2.2.1",
-    "typescript": "^5.0.4"
+    "@alura/tsconfig-commons": "*",
+    "next-compose-plugins": "^2.2.1"
   }
 }
