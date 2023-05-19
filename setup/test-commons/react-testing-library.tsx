@@ -14,4 +14,4 @@ export const customRender = (AllTheProviders = DefaultWrapper) => {
 export * from '@testing-library/react'
 
 // re-export everything
-export const render = () => console.error('')
+export const render = () => console.error('Erro')
