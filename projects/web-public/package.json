@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "eslint './**/*.{ts,tsx}'"
   },
   "keywords": [],
@@ -17,14 +16,14 @@
     "styled-components": "6.0.0-rc.1",
     "@alura/design-system": "*",
     "@alura/utils": "*",
-    "eslint-config-next": "^13.4.2",
-    "next": "^13.4.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "eslint-config-next": "13.4.2",
+    "next": "13.4.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@alura/tsconfig-commons": "*",
     "@alura/eslint-commons": "*",
-    "next-compose-plugins": "^2.2.1"
+    "next-compose-plugins": "2.2.1"
   }
 }

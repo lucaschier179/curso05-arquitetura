@@ -14,18 +14,20 @@
     "build:web-public": "yarn web-public build",
     "start:web-public": "yarn web-public start",
     "lint:web-public": "yarn web-public lint",
-    "design-system": "yarn workspace @alura/design-system"
+    "design-system": "yarn workspace @alura/design-system",
+    "utils": "yarn workspace @alura/utils",
+    "test:utils": "yarn utils test"
   },
   "dependencies": {
+    "@types/jest": "29.5.1",
+    "@types/node": "20.2.1",
+    "@types/react": "18.2.6",
+    "@types/styled-components": "5.1.26",
     "eslint": "8.40.0",
     "prettier": "2.8.8",
-    "eslint-config-next": "^13.4.2",
-    "next": "^13.4.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@types/styled-components": "5.1.26",
-    "@types/node": "^20.1.7",
-    "@types/react": "^18.2.6",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "jest-environment-jsdom": "^29.5.0"
   }
 }

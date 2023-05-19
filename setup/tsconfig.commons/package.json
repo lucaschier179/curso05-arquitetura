@@ -7,6 +7,6 @@
     "base.json"
   ],
   "scripts": {
-    "lint": "echo 'Not necessary"
+    "lint": "echo 'Not necessary'"
   }
 }
